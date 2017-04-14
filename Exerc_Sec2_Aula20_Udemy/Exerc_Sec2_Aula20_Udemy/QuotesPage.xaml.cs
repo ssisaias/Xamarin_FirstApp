@@ -31,7 +31,7 @@ namespace Exerc_Sec2_Aula20_Udemy_xamarin_form
         private void next_Clicked(object sender, EventArgs e)
         {
             frase.Text = quotes[++quote];
-            if (quote >= 2) { quote = 0; }
+            if (quote >= 2) { quote = -1; }
         }
     }
 }
